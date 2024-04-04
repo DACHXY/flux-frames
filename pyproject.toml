@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "flux-frames"
+version = "0.1.0"
+description = "FluxFrames is a Python-based application designed to dynamically update desktop backgrounds by fetching images from the web."
+authors = ["DACHXY <Danny10132024@gmail.com>"]
+license = "GNU General Public License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
